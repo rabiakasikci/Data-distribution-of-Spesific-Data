@@ -1,4 +1,4 @@
-read_file= read.csv('BMM422_Data.csv',sep=";" )
+read_file= read.csv('Data.csv',sep=";" )
 new_file = read_file[-1,]
 
 cols_number=ncol(new_file)
